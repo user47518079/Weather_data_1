@@ -894,7 +894,7 @@ $(window).on('load', function() {
    */
   function changeAttribution() {
     var attributionHTML = $('.leaflet-control-attribution')[0].innerHTML;
-    var credit = 'View <a href="' + googleDocURL + '" target="_blank">data</a>';
+    var credit = 'View <a href="' + '123' + '" target="_blank">123</a>';
     var name = getSetting('_authorName');
     var url = getSetting('_authorURL');
 
@@ -907,8 +907,8 @@ $(window).on('load', function() {
       credit += ' | ';
     }
 
-    credit += 'View <a href="' + getSetting('_githubRepo') + '">code</a>';
-    if (getSetting('_codeCredit')) credit += ' by ' + getSetting('_codeCredit');
+    credit += 'View <a href="' + getSetting('123') + '">code</a>';
+    if (getSetting('123')) credit += ' by ' + getSetting('123');
     credit += ' with ';
     $('.leaflet-control-attribution')[0].innerHTML = credit + attributionHTML;
   }
