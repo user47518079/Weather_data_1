@@ -967,8 +967,8 @@ $(window).on('load', function() {
    var mapData;
 
    $.ajax({
-       //url:'csv/Options.csv',
-     url:googleDocJUrl,
+       url:'csv/Options.csv',
+     //url:googleDocJUrl,
        type:'HEAD',
        error: function() {
          // Options.csv does not exist, so use Tabletop to fetch data from
