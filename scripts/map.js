@@ -1034,7 +1034,7 @@ L.Control.Rainviewer = L.Control.extend({
         prevButtonText: '<',
         positionSliderLabelText: "Hour:",
         opacitySliderLabelText: "Opacity:",
-        animationInterval: 500,
+        animationInterval: 200,
         opacity: 0.5
     },
 
